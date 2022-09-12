@@ -14,6 +14,7 @@ export const StatisticsTitle = styled.h2`
   margin: 0;
   padding: 0;
   background-color: aliceblue;
+  padding: 5px;
 `;
 
 export const StatsList = styled.ul`

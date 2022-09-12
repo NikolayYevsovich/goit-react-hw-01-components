@@ -19,6 +19,7 @@ export const OnlineStatus = styled.span`
   background-color: red;
   margin-left: 15px;
 	margin-right: 15px;
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
   background-color: ${props => {
     if (props.isOnline) {
       return 'green';
